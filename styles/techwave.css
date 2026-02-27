@@ -39,6 +39,29 @@ hr {
     grid-column: span 1 !important;
     grid-row: span 1 !important;
   }
+   #playlist{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #host-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+  }
+  #social-icons{
+    justify-content: center;
+  }
+  #host-info>h4,p{
+    text-align: center;
+  }
+  #host-name{
+    text-align: center;
+  }
 }
 
 @media screen and (min-width: 577px) and (max-width: 992px) {
